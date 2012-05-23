@@ -15,13 +15,39 @@ import android.view.MotionEvent;
  */
 public class TouchViewPager extends ViewPager {
     private MyPageStateAdapter myPageStateAdapter;
+    private CaptionTextFragment captionTextFragment;
+
+    private int[] list = new int[] {
+            R.array.ch1_pg1_caption_list,
+            R.array.ch1_pg2_caption_list
+    };
 
     private TouchViewPager(Context context) {
         super(context);
+        setListener();
     }
 
     private TouchViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setListener();
+    }
+
+    private void setListener() {
+        setOnPageChangeListener(new OnPageChangeListener() {
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                //To change body of implemented methods use File | Settings | File Templates.
+            }
+
+            public void onPageSelected(int position) {
+                captionTextFragment.setNewCaptionList(
+                        list[position]
+                );
+            }
+
+            public void onPageScrollStateChanged(int state) {
+                //To change body of implemented methods use File | Settings | File Templates.
+            }
+        });
     }
 
     @Override
@@ -35,5 +61,9 @@ public class TouchViewPager extends ViewPager {
     public void setAdapter(MyPageStateAdapter adapter) {
         myPageStateAdapter = adapter;
         super.setAdapter(adapter);
+    }
+
+    public void setCaptionTextFragment(CaptionTextFragment captionTextFragment) {
+        this.captionTextFragment = captionTextFragment;
     }
 }

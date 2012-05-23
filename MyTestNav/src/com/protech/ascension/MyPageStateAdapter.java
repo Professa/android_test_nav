@@ -34,8 +34,8 @@ public class MyPageStateAdapter extends FragmentStatePagerAdapter {
             mCurrentFragment = new FirstChapterPage1Fragment();
             return mCurrentFragment;
         } else if (i == 1) {
-//            mCurrentFragment = new FirstChapterPage2Fragment();
-            return new FirstChapterPage2Fragment();
+            mCurrentFragment = new FirstChapterPage2Fragment();
+            return mCurrentFragment;
         }
         return null;
     }

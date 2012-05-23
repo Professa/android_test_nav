@@ -18,16 +18,15 @@ import com.protech.ascension.chapter1.Chapter1FragmentActivity;
  */
 public class CaptionTextFragment extends ListFragment {
     private Chapter1FragmentActivity mainFragAct;
-    ViewPager mViewPager;
+    private View rootView;
+    private ViewPager mViewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mainFragAct = (Chapter1FragmentActivity )inflater.getContext();
 
-        View rootView = inflater.inflate(android.R.layout.list_content, container, false);
-
-        String[] list = getResources().getStringArray(R.array.ch1_pg1_caption_list);
-        setListAdapter(new ArrayAdapter<String>(rootView.getContext(), R.layout.caption_text_layout, list));
+        rootView = inflater.inflate(android.R.layout.list_content, container, false);
+        setNewCaptionList(R.array.ch1_pg1_caption_list);
 
         return rootView;
     }
@@ -42,5 +41,10 @@ public class CaptionTextFragment extends ListFragment {
                 );
             }
         }
+    }
+
+    public void setNewCaptionList(int listId) {
+        String[] list = getResources().getStringArray(listId);
+        setListAdapter(new ArrayAdapter<String>(rootView.getContext(), R.layout.caption_text_layout, list));
     }
 }

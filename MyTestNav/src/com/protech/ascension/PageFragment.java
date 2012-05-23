@@ -11,4 +11,6 @@ import android.support.v4.app.Fragment;
  */
 public abstract class PageFragment extends Fragment {
     protected abstract int getTouchMode();
+
+    protected abstract int getCaptionListId();
 }

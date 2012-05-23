@@ -40,13 +40,15 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         }
         setContentView(R.layout.chapter_1_layout);
 
-        String[] pageList = getResources().getStringArray(R.array.ch1_page_list);
+        captionTextFragment = (CaptionTextFragment) getSupportFragmentManager().
+                        findFragmentById(R.id.caption_text_frag);
 
         // Create an adapter that when requested, will return a fragment representing an object in
         // the collection.
         //
         // ViewPager and its adapters use support library fragments, so we must use
         // getSupportFragmentManager.
+        String[] pageList = getResources().getStringArray(R.array.ch1_page_list);
         myPageStateAdapter = new MyPageStateAdapter(getSupportFragmentManager(), 1,  pageList.length);
 
         // Set up action bar.
@@ -161,22 +163,4 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // Manually trigger onNewIntent to check for ACTION_DIALOG.
         onNewIntent(getIntent());
     }
-
-    private class TouchViewPager extends ViewPager {
-        private TouchViewPager(Context context) {
-            super(context);
-        }
-
-        private TouchViewPager(Context context, AttributeSet attrs) {
-            super(context, attrs);
-        }
-
-        @Override
-        public boolean onTouchEvent(MotionEvent ev) {
-            if (TouchImageView2.NONE !=  myPageStateAdapter.getTouchMode()) {
-                return super.onTouchEvent(ev);
-            }
-            return false;
-        }
-    };
 }

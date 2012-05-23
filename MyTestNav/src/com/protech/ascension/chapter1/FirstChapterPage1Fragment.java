@@ -38,4 +38,9 @@ public class FirstChapterPage1Fragment extends PageFragment {
     protected int getTouchMode() {
         return view.getMode();
     }
+
+    @Override
+    protected int getCaptionListId() {
+        return R.array.ch1_pg1_caption_list;
+    }
 }
