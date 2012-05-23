@@ -25,8 +25,8 @@ public class Chapter1FragmentActivity extends FragmentActivity {
     private Animator mCurrentTextAnimator;
     private MyPageStateAdapter myPageStateAdapter;
 
-//    private ViewPager mViewPager;
-    private TouchViewPager mViewPager;
+    private ViewPager mViewPager;
+//    private TouchViewPager mViewPager;
 
     private String[] mToggleText = {"Show Text", "Hide Text"};
     private boolean mTextAreaHidden = false;
@@ -57,7 +57,7 @@ public class Chapter1FragmentActivity extends FragmentActivity {
 //        actionBar.setDisplayHomeAsUpEnabled(true);
 
         // Set up the ViewPager, attaching the adapter.
-        mViewPager = (TouchViewPager) findViewById(R.id.pager);
+        mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(myPageStateAdapter);
 
         if (mTextAreaHidden) {
