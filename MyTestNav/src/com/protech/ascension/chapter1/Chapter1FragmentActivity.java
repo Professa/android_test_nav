@@ -119,28 +119,8 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // todo - Original Approach
         ObjectAnimator objectAnimator = ObjectAnimator.ofPropertyValuesHolder(
                 textAreaView,
-//                PropertyValuesHolder.ofInt(
-//                        isPortrait ? "bottom" : "right",
-//                            shouldShow ? getResources().getDimensionPixelSize(R.dimen.text_area_size) : 0),
                 PropertyValuesHolder.ofFloat("alpha", shouldShow ? 1 : 0)
         );
-//        At each step of the animation, we'll perform layout by calling setLayoutParams.
-//        final ViewGroup.LayoutParams lp = textAreaView.getLayoutParams();
-//        objectAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-//            public void onAnimationUpdate(ValueAnimator valueAnimator) {
-//                // *** WARNING ***: triggering layout at each animation frame highly impacts
-//                // performance so you should only do this for simple layouts. More complicated
-//                // layouts can be better served with individual animations on child views to
-//                // avoid the performance penalty of layout.
-//                if (isPortrait) {
-//                    lp.height = (Integer) valueAnimator.getAnimatedValue();
-//                } else {
-//                    lp.width = (Integer) valueAnimator.getAnimatedValue();
-//                }
-//                textAreaView.setLayoutParams(lp);
-//            }
-//        });
-
         if (shouldShow) {
             fm.beginTransaction().show(f).commit();
             objectAnimator.addListener(new AnimatorListenerAdapter() {
