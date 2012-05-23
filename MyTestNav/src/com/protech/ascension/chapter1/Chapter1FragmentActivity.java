@@ -32,6 +32,11 @@ public class Chapter1FragmentActivity extends FragmentActivity {
     private boolean mTextAreaHidden = false;
     private CaptionTextFragment captionTextFragment;
 
+    private int[] list = new int[] {
+            R.array.ch1_pg1_caption_list,
+            R.array.ch1_pg2_caption_list
+    };
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -61,6 +66,17 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // Set up the ViewPager, attaching the adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(myPageStateAdapter);
+        mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) { }
+
+            public void onPageSelected(int position) {
+                captionTextFragment.setNewCaptionList(
+                        list[position]
+                );
+            }
+
+            public void onPageScrollStateChanged(int state) { }
+        });
 
         if (mTextAreaHidden) {
 //            getSupportFragmentManager().beginTransaction().hide(
