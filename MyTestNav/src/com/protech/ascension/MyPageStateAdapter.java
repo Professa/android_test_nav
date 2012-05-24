@@ -20,6 +20,7 @@ import java.util.HashSet;
 public class MyPageStateAdapter extends FragmentStatePagerAdapter {
     private int mPageCount;
     private int mChapter;
+    private int currentPosition;
     private PageFragment mCurrentFragment;
 
     public MyPageStateAdapter(FragmentManager fm, int mChapter, int mPageCount) {
@@ -55,5 +56,9 @@ public class MyPageStateAdapter extends FragmentStatePagerAdapter {
             return mCurrentFragment.getTouchMode();
         }
         return TouchImageView2.NONE;
+    }
+
+    public void setCurrentPosition(int position) {
+        currentPosition = position;
     }
 }

@@ -24,15 +24,17 @@ public class TouchViewPager extends ViewPager {
 
     public TouchViewPager(Context context) {
         super(context);
+        setUpListeners();
     }
 
     public TouchViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setUpListeners();
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
-        if (TouchImageView2.NONE !=  myPageStateAdapter.getTouchMode()) {
+        if (TouchImageView2.NONE == myPageStateAdapter.getTouchMode()) {
             return super.onTouchEvent(ev);
         }
         return false;
@@ -45,5 +47,24 @@ public class TouchViewPager extends ViewPager {
 
     public void setCaptionTextFragment(CaptionTextFragment captionTextFragment) {
         this.captionTextFragment = captionTextFragment;
+    }
+
+    private void setUpListeners() {
+        setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            public void onPageSelected(int position) {
+                myPageStateAdapter.setCurrentPosition(position);
+                captionTextFragment.setNewCaptionList(
+                        list[position]
+                );
+            }
+
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
     }
 }

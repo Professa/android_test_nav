@@ -24,11 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210a4c94-3818-4ad0-8a45-e1cd5835d9b3" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\BNengel\Documents\GitHub\android_test_nav\MyTestNav\out\production\MyTestNav\com\protech\ascension\chapter1\Chapter1FragmentActivity$3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTestNav.iws" afterPath="$PROJECT_DIR$/MyTestNav.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/chapter_1_layout.xml" afterPath="$PROJECT_DIR$/res/layout/chapter_1_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java" />
     </list>
@@ -62,46 +60,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" line="25" class="com.protech.ascension.TouchViewPager" package="com.protech.ascension">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" line="29" class="com.protech.ascension.TouchViewPager" package="com.protech.ascension">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" line="34" class="com.protech.ascension.TouchViewPager" package="com.protech.ascension">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" line="41" class="com.protech.ascension.TouchViewPager" package="com.protech.ascension">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" line="58" class="com.protech.ascension.TouchViewPager$1" package="com.protech.ascension">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -175,7 +134,7 @@
       <file leaf-file-name="Chapter1FragmentActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="69" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0">
+            <state line="63" column="88" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,28 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter_1_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml">
+      <file leaf-file-name="MyPageStateAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+            <state line="43" column="40" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter_1_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/chapter_1_layout.xml">
+      <file leaf-file-name="FirstChapterPage1Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="43" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chapter_1_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="35" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+            <state line="20" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,19 +163,17 @@
       <file leaf-file-name="TouchViewPager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="79" selection-start="654" selection-end="654" vertical-scroll-proportion="0.1627907">
+            <state line="51" column="84" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.29401994">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptionTextFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java">
+      <file leaf-file-name="TouchImageView2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/TouchImageView2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="91" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="17" column="28" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,12 +203,12 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage2Fragment.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java" />
         <option value="$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/chapter_1_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java" />
       </list>
     </option>
@@ -704,12 +652,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.37" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="1726" y="70" width="1516" height="942" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.37" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="1726" y="70" width="1516" height="942" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954017" sideWeight="0.6988889" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954017" sideWeight="0.6988889" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24954017" sideWeight="0.6988889" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954017" sideWeight="0.6988889" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,59 +725,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/app/ListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-15/android/widget/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/R.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="539" column="32" selection-start="38637" selection-end="38637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/caption_text_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage2Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="138" selection-start="274" selection-end="274" vertical-scroll-proportion="0.056478404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/PageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="53" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.5199336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="35" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -848,6 +746,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-large-port/chapter_1_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="13" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
@@ -855,25 +760,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/view/ViewPager.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="54" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="24" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="69" selection-start="2195" selection-end="2195" vertical-scroll-proportion="0.0">
+        <state line="20" column="91" selection-start="614" selection-end="614" vertical-scroll-proportion="-0.1013289">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/TouchImageView2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="91" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+        <state line="17" column="28" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/view/PagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="22" selection-start="10560" selection-end="10560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/app/FragmentStatePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="3068" selection-end="3068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="67" selection-start="11938" selection-end="11938" vertical-scroll-proportion="0.4770017">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="0" selection-start="8437" selection-end="8437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/MyPageStateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="40" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="88" selection-start="2430" selection-end="2430" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -882,7 +834,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/TouchViewPager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="79" selection-start="654" selection-end="654" vertical-scroll-proportion="0.1627907">
+        <state line="51" column="84" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.29401994">
           <folding />
         </state>
       </provider>

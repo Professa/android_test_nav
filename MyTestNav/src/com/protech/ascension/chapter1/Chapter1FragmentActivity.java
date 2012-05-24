@@ -61,17 +61,7 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // Set up the ViewPager, attaching the adapter.
         mViewPager = (TouchViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(myPageStateAdapter);
-        mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) { }
-
-            public void onPageSelected(int position) {
-                captionTextFragment.setNewCaptionList(
-                        list[position]
-                );
-            }
-
-            public void onPageScrollStateChanged(int state) { }
-        });
+        mViewPager.setCaptionTextFragment(captionTextFragment);
 
         if (mTextAreaHidden) {
 //            getSupportFragmentManager().beginTransaction().hide(
