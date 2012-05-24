@@ -18,7 +18,7 @@
               android:layout_marginBottom="10dp"
             />
 
-    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    <com.protech.ascension.TouchViewPager xmlns:android="http://schemas.android.com/apk/res/android"
                                        android:id="@+id/pager"
                                        android:layout_width="match_parent"
                                        android:layout_height="0dip"
@@ -39,5 +39,5 @@
                                                  android:paddingTop="4dp"
                                                  android:paddingBottom="4dp" />
 
-    </android.support.v4.view.ViewPager>
+    </com.protech.ascension.TouchViewPager>
 </LinearLayout>

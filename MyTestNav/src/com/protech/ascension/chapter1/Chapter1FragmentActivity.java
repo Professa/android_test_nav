@@ -1,18 +1,13 @@
 package com.protech.ascension.chapter1;
 
 import android.animation.*;
-import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
-import android.util.AttributeSet;
 import android.view.*;
-import com.protech.ascension.CaptionTextFragment;
-import com.protech.ascension.MyPageStateAdapter;
-import com.protech.ascension.R;
-import com.protech.ascension.TouchImageView2;
+import com.protech.ascension.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -25,8 +20,8 @@ public class Chapter1FragmentActivity extends FragmentActivity {
     private Animator mCurrentTextAnimator;
     private MyPageStateAdapter myPageStateAdapter;
 
-    private ViewPager mViewPager;
-//    private TouchViewPager mViewPager;
+//    private ViewPager mViewPager;
+    private TouchViewPager mViewPager;
 
     private String[] mToggleText = {"Show Text", "Hide Text"};
     private boolean mTextAreaHidden = false;
@@ -64,7 +59,7 @@ public class Chapter1FragmentActivity extends FragmentActivity {
 //        actionBar.setDisplayHomeAsUpEnabled(true);
 
         // Set up the ViewPager, attaching the adapter.
-        mViewPager = (ViewPager) findViewById(R.id.pager);
+        mViewPager = (TouchViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(myPageStateAdapter);
         mViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) { }

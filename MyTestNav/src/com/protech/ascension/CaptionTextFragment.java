@@ -19,7 +19,8 @@ import com.protech.ascension.chapter1.Chapter1FragmentActivity;
 public class CaptionTextFragment extends ListFragment {
     private Chapter1FragmentActivity mainFragAct;
     private View rootView;
-    private ViewPager mViewPager;
+//    private ViewPager mViewPager;
+    private TouchViewPager mViewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -33,7 +34,7 @@ public class CaptionTextFragment extends ListFragment {
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
-        mViewPager = (ViewPager) mainFragAct.findViewById(R.id.pager);
+        mViewPager = (TouchViewPager) mainFragAct.findViewById(R.id.pager);
         if (mViewPager != null) {
             if ("Next Page".equals(l.getItemAtPosition(position))) {
                 mViewPager.setCurrentItem(

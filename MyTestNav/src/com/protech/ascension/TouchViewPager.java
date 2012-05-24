@@ -22,11 +22,11 @@ public class TouchViewPager extends ViewPager {
             R.array.ch1_pg2_caption_list
     };
 
-    private TouchViewPager(Context context) {
+    public TouchViewPager(Context context) {
         super(context);
     }
 
-    private TouchViewPager(Context context, AttributeSet attrs) {
+    public TouchViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
