@@ -19,7 +19,8 @@ public class TouchViewPager extends ViewPager {
 
     private int[] list = new int[] {
             R.array.ch1_pg1_caption_list,
-            R.array.ch1_pg2_caption_list
+            R.array.ch1_pg2_caption_list,
+            R.array.ch1_pg3_caption_list
     };
 
     public TouchViewPager(Context context) {

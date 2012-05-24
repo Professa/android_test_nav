@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import com.protech.ascension.chapter1.Chapter1FragmentActivity;
 import com.protech.ascension.chapter1.FirstChapterPage1Fragment;
 import com.protech.ascension.chapter1.FirstChapterPage2Fragment;
+import com.protech.ascension.chapter1.FirstChapterPage3Fragment;
 
 import java.util.HashSet;
 
@@ -36,6 +37,9 @@ public class MyPageStateAdapter extends FragmentStatePagerAdapter {
             return mCurrentFragment;
         } else if (i == 1) {
             mCurrentFragment = new FirstChapterPage2Fragment();
+            return mCurrentFragment;
+        } else if (i == 2) {
+            mCurrentFragment = new FirstChapterPage3Fragment();
             return mCurrentFragment;
         }
         return null;

@@ -11,6 +11,7 @@
     <string-array name="ch1_page_list">
         <item>Page 1</item>
         <item>Page 2</item>
+        <item>Page 3</item>
     </string-array>
 
     <string-array name="ch1_pg1_caption_list">
@@ -55,8 +56,27 @@
     </string-array>
 
     <string-array name="ch1_pg2_caption_list">
+        <item>
+            This is some test text to display in the list.
+        </item>
+        <item>
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+        </item>
+        <item>
+            This is some test text to display in the list.
+        </item>
+        <item>
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+            A lot more text that will be displaying in a paragraph and copied to be longer.
+        </item>
+        <item>
+            Next Page
+        </item>
+    </string-array>
+    <string-array name="ch1_pg3_caption_list">
             <item>
-                This is some test text to display in the list.
+                This is page 3 text.
             </item>
             <item>
                 A lot more text that will be displaying in a paragraph and copied to be longer.
