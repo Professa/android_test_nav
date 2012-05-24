@@ -24,30 +24,10 @@ public class TouchViewPager extends ViewPager {
 
     private TouchViewPager(Context context) {
         super(context);
-        setListener();
     }
 
     private TouchViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setListener();
-    }
-
-    private void setListener() {
-        setOnPageChangeListener(new OnPageChangeListener() {
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                //To change body of implemented methods use File | Settings | File Templates.
-            }
-
-            public void onPageSelected(int position) {
-                captionTextFragment.setNewCaptionList(
-                        list[position]
-                );
-            }
-
-            public void onPageScrollStateChanged(int state) {
-                //To change body of implemented methods use File | Settings | File Templates.
-            }
-        });
     }
 
     @Override

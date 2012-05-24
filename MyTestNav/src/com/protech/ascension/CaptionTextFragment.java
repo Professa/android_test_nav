@@ -44,7 +44,10 @@ public class CaptionTextFragment extends ListFragment {
     }
 
     public void setNewCaptionList(int listId) {
-        String[] list = getResources().getStringArray(listId);
-        setListAdapter(new ArrayAdapter<String>(rootView.getContext(), R.layout.caption_text_layout, list));
+        setListAdapter(new ArrayAdapter<String>(
+                rootView.getContext(),
+                R.layout.caption_text_layout,
+                getResources().getStringArray(listId))
+        );
     }
 }
