@@ -26,7 +26,7 @@ public class FirstChapterPage1Fragment extends PageFragment {
         View rootView = inflater.inflate(R.layout.ch1_page1, container, false);
 //        ((TouchImageView)  rootView.findViewById(R.id.touch_view)).setupImage(R.drawable.cupcake);
 
-        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.chrome_wheel);
+        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.image8);
 //        ((TouchImageView2) rootView.findViewById(R.id.touch_view)).setImageBitmap(bm);
         view = ((TouchImageView2) rootView.findViewById(R.id.touch_view));
         view.setImageBitmap(bm);

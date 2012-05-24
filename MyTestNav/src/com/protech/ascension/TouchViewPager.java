@@ -35,10 +35,11 @@ public class TouchViewPager extends ViewPager {
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
-        if (TouchImageView2.NONE == myPageStateAdapter.getTouchMode()) {
-            return super.onTouchEvent(ev);
-        }
-        return false;
+//        if (TouchImageView2.NONE == myPageStateAdapter.getTouchMode()) {
+//            return super.onTouchEvent(ev);
+//        }
+//        return false;
+        return super.onTouchEvent(ev);
     }
 
     public void setAdapter(MyPageStateAdapter adapter) {

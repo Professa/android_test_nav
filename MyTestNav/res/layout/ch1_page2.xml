@@ -3,7 +3,7 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
            android:layout_height="fill_parent"
            android:layout_width="fill_parent"
-           android:src="@drawable/blue_balloon"
+           android:src="@drawable/image5"
            android:contentDescription="Page 2"
         >
 </ImageView>
