@@ -9,16 +9,19 @@ package com.protech.ascension;
 
 public final class R {
     public static final class array {
-        public static final int ch1_page_list=0x7f060001;
-        public static final int ch1_pg1_caption_list=0x7f060002;
-        public static final int ch1_pg2_caption_list=0x7f060003;
-        public static final int ch1_pg3_caption_list=0x7f060004;
-        public static final int chapter_list=0x7f060000;
+        public static final int ch1_page_list=0x7f070001;
+        public static final int ch1_pg1_caption_list=0x7f070002;
+        public static final int ch1_pg2_caption_list=0x7f070003;
+        public static final int ch1_pg3_caption_list=0x7f070004;
+        public static final int chapter_list=0x7f070000;
     }
     public static final class attr {
     }
+    public static final class color {
+        public static final int pressed=0x7f040000;
+    }
     public static final class dimen {
-        public static final int text_area_size=0x7f040000;
+        public static final int text_area_size=0x7f050000;
     }
     public static final class drawable {
         public static final int big_droid=0x7f020000;
@@ -37,13 +40,13 @@ public final class R {
         public static final int image8=0x7f02000d;
     }
     public static final class id {
-        public static final int caption_text_frag=0x7f080002;
-        public static final int chapter_list_view=0x7f080005;
-        public static final int chp1_layout=0x7f080001;
-        public static final int menu_toggleTextCloud=0x7f080006;
-        public static final int pager=0x7f080003;
-        public static final int pager_title_strip=0x7f080004;
-        public static final int touch_view=0x7f080000;
+        public static final int caption_text_frag=0x7f090002;
+        public static final int chapter_list_view=0x7f090005;
+        public static final int chp1_layout=0x7f090001;
+        public static final int menu_toggleTextCloud=0x7f090006;
+        public static final int pager=0x7f090003;
+        public static final int pager_title_strip=0x7f090004;
+        public static final int touch_view=0x7f090000;
     }
     public static final class layout {
         public static final int caption_text_layout=0x7f030000;
@@ -54,10 +57,10 @@ public final class R {
         public static final int main=0x7f030005;
     }
     public static final class menu {
-        public static final int main_menu=0x7f070000;
+        public static final int main_menu=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int menu_text_area=0x7f050001;
+        public static final int app_name=0x7f060000;
+        public static final int menu_text_area=0x7f060001;
     }
 }
