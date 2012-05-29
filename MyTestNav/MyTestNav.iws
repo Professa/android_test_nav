@@ -16,6 +16,7 @@
       <entry key="file://$PROJECT_DIR$/res/layout-large/chapter_1_layout.xml" value="Portrait" />
       <entry key="file://$PROJECT_DIR$/res/layout/caption_text_layout.xml" value="Portrait" />
       <entry key="file://$PROJECT_DIR$/res/layout/ch1_page1.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/res/layout/ch1_page2.xml" value="Portrait" />
       <entry key="file://$PROJECT_DIR$/res/layout/chapter_1_layout.xml" value="Portrait" />
     </device-configurations>
   </component>
@@ -24,30 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210a4c94-3818-4ad0-8a45-e1cd5835d9b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk.res" afterPath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk.res" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk.unaligned" afterPath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk.unaligned" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk" afterPath="$PROJECT_DIR$/out/production/MyTestNav/MyTestNav.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/classes.dex" afterPath="$PROJECT_DIR$/out/production/MyTestNav/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/CaptionTextFragment.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/CaptionTextFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$array.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$dimen.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$id.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$layout.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$menu.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$string.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/TouchViewPager.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/TouchViewPager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/Chapter1FragmentActivity.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/Chapter1FragmentActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage1Fragment.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage1Fragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage2Fragment.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage2Fragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage3Fragment.class" afterPath="$PROJECT_DIR$/out/production/MyTestNav/com/protech/ascension/chapter1/FirstChapterPage3Fragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-nodpi/ch1_pg1_caption_border.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTestNav.iws" afterPath="$PROJECT_DIR$/MyTestNav.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/protech/ascension/R.java" afterPath="$PROJECT_DIR$/gen/com/protech/ascension/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/caption_text_layout.xml" afterPath="$PROJECT_DIR$/res/layout/caption_text_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" afterPath="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/ch1_page2.xml" afterPath="$PROJECT_DIR$/res/layout/ch1_page2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
     </list>
     <ignored path="MyTestNav.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,37 +120,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CaptionTextFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CaptionTextFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="46" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.8023256">
+            <state line="22" column="55" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FirstChapterPage2Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage2Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch1_page2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/ch1_page2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch1_pg1_caption_border.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-nodpi/ch1_pg1_caption_border.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="42" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demins.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/demins.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="15" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="caption_text_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/caption_text_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+            <state line="8" column="92" selection-start="295" selection-end="295" vertical-scroll-proportion="0.22591361">
               <folding />
             </state>
           </provider>
@@ -190,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java" />
-        <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage2Fragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/ch1_page2.xml" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage3Fragment.java" />
         <option value="$PROJECT_DIR$/res/layout/ch1_page3.xml" />
         <option value="$PROJECT_DIR$/res/layout/caption_text.xml" />
@@ -202,10 +200,13 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/drawable/list_selector.xml" />
         <option value="$PROJECT_DIR$/res/color/caption_text_color.xml" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/values/demins.xml" />
         <option value="$PROJECT_DIR$/res/layout/caption_text_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-nodpi/ch1_pg1_caption_border.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/layout/ch1_page2.xml" />
       </list>
     </option>
   </component>
@@ -333,10 +334,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -352,57 +349,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout-large-port" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout-large" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTestNav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="drawable-nodpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -766,37 +713,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-15/android/widget/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="801" column="17" selection-start="27858" selection-end="27858" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/chapter_1_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="95" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/Chapter1FragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.33222592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/android/support/v4/src/java/android/support/v4/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="945" column="18" selection-start="34731" selection-end="34731" vertical-scroll-proportion="0.3604651">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-15/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="286" column="29" selection-start="12508" selection-end="12508" vertical-scroll-proportion="0.8405316">
@@ -832,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/demins.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="15" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
@@ -853,9 +762,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/ch1_page1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-nodpi/image8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage1Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="156" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.40697673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/CaptionTextFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="46" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.8023256">
+        <state line="22" column="55" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/protech/ascension/chapter1/FirstChapterPage2Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-nodpi/ch1_pg1_caption_border.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="42" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/ch1_page2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="92" selection-start="295" selection-end="295" vertical-scroll-proportion="0.22591361">
           <folding />
         </state>
       </provider>

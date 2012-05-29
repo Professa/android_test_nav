@@ -18,6 +18,10 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int default_back_ground_test=0x7f040004;
+        public static final int image_border_center=0x7f040003;
+        public static final int image_border_end=0x7f040002;
+        public static final int image_border_start=0x7f040001;
         public static final int pressed=0x7f040000;
     }
     public static final class dimen {
@@ -27,26 +31,27 @@ public final class R {
         public static final int big_droid=0x7f020000;
         public static final int blue_balloon=0x7f020001;
         public static final int blue_bike=0x7f020002;
-        public static final int chrome_wheel=0x7f020003;
-        public static final int cupcake=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int image1=0x7f020006;
-        public static final int image2=0x7f020007;
-        public static final int image3=0x7f020008;
-        public static final int image4=0x7f020009;
-        public static final int image5=0x7f02000a;
-        public static final int image6=0x7f02000b;
-        public static final int image7=0x7f02000c;
-        public static final int image8=0x7f02000d;
+        public static final int ch1_pg1_caption_border=0x7f020003;
+        public static final int chrome_wheel=0x7f020004;
+        public static final int cupcake=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int image1=0x7f020007;
+        public static final int image2=0x7f020008;
+        public static final int image3=0x7f020009;
+        public static final int image4=0x7f02000a;
+        public static final int image5=0x7f02000b;
+        public static final int image6=0x7f02000c;
+        public static final int image7=0x7f02000d;
+        public static final int image8=0x7f02000e;
     }
     public static final class id {
-        public static final int caption_text_frag=0x7f090002;
-        public static final int chapter_list_view=0x7f090005;
-        public static final int chp1_layout=0x7f090001;
-        public static final int menu_toggleTextCloud=0x7f090006;
-        public static final int pager=0x7f090003;
-        public static final int pager_title_strip=0x7f090004;
-        public static final int touch_view=0x7f090000;
+        public static final int caption_text_frag=0x7f0a0002;
+        public static final int chapter_list_view=0x7f0a0005;
+        public static final int chp1_layout=0x7f0a0001;
+        public static final int menu_toggleTextCloud=0x7f0a0006;
+        public static final int pager=0x7f0a0003;
+        public static final int pager_title_strip=0x7f0a0004;
+        public static final int touch_view=0x7f0a0000;
     }
     public static final class layout {
         public static final int caption_text_layout=0x7f030000;
@@ -57,10 +62,13 @@ public final class R {
         public static final int main=0x7f030005;
     }
     public static final class menu {
-        public static final int main_menu=0x7f080000;
+        public static final int main_menu=0x7f090000;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
         public static final int menu_text_area=0x7f060001;
+    }
+    public static final class style {
+        public static final int ch1_pg1_border=0x7f080000;
     }
 }

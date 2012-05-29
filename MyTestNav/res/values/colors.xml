@@ -1,3 +1,9 @@
 <resources>
     <color name="pressed">#ff00c4ff</color>
+
+    <color name="image_border_start">#40990000</color>
+    <color name="image_border_center">#FFFF3333</color>
+    <color name="image_border_end">#FF660000</color>
+
+    <color name="default_back_ground_test">#ff000000</color>
 </resources>
