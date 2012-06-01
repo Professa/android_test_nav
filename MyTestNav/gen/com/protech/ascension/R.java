@@ -19,8 +19,8 @@ public final class R {
     }
     public static final class color {
         public static final int default_back_ground_test=0x7f040004;
-        public static final int image_border_center=0x7f040003;
-        public static final int image_border_end=0x7f040002;
+        public static final int image_border_center=0x7f040002;
+        public static final int image_border_end=0x7f040003;
         public static final int image_border_start=0x7f040001;
         public static final int pressed=0x7f040000;
     }

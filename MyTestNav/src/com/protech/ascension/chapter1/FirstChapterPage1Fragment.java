@@ -1,15 +1,13 @@
 package com.protech.ascension.chapter1;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.protech.ascension.PageFragment;
 import com.protech.ascension.R;
 import com.protech.ascension.TouchImageView2;
+import com.protech.ascension.Util.BitmapWorkerTask;
 
 /**
  * Created with IntelliJ IDEA.
@@ -24,13 +22,16 @@ public class FirstChapterPage1Fragment extends PageFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.ch1_page1, container, false);
-//        ((TouchImageView)  rootView.findViewById(R.id.touch_view)).setupImage(R.drawable.cupcake);
 
-        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.image8);
-//        ((TouchImageView2) rootView.findViewById(R.id.touch_view)).setImageBitmap(bm);
+//        Bitmap bm = BitmapFactory.decodeResource(getResources(), R.drawable.image8);
         view = ((TouchImageView2) rootView.findViewById(R.id.touch_view));
-        view.setImageBitmap(bm);
 
+//        view.setImageBitmap(
+//                decodeSampledBitmapFromResource(
+//                                getResources(), R.drawable.image8, 600, 600)
+//        );
+        BitmapWorkerTask task = new BitmapWorkerTask(getResources(), view);
+        task.doInBackground(R.drawable.image8);
         return rootView;
     }
 

@@ -4,10 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.view.ViewGroup;
-import com.protech.ascension.chapter1.Chapter1FragmentActivity;
-import com.protech.ascension.chapter1.FirstChapterPage1Fragment;
-import com.protech.ascension.chapter1.FirstChapterPage2Fragment;
-import com.protech.ascension.chapter1.FirstChapterPage3Fragment;
+import com.protech.ascension.chapter1.*;
 
 import java.util.HashSet;
 
@@ -32,17 +29,17 @@ public class MyPageStateAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
-        if (i == 0) {
-            mCurrentFragment = new FirstChapterPage1Fragment();
-            return mCurrentFragment;
-        } else if (i == 1) {
-            mCurrentFragment = new FirstChapterPage2Fragment();
-            return mCurrentFragment;
-        } else if (i == 2) {
-            mCurrentFragment = new FirstChapterPage3Fragment();
-            return mCurrentFragment;
-        }
-        return null;
+//        if (i == 0) {
+//            mCurrentFragment = new FirstChapterPage1Fragment();
+//            return mCurrentFragment;
+//        } else if (i == 1) {
+//            mCurrentFragment = new FirstChapterPage2Fragment();
+//            return mCurrentFragment;
+//        } else if (i == 2) {
+//            mCurrentFragment = new FirstChapterPage3Fragment();
+//            return mCurrentFragment;
+//        }
+        return Chapter1Fragment.newInstance(i);
     }
 
     @Override

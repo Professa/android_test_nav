@@ -2,12 +2,15 @@ package com.protech.ascension.chapter1;
 
 import android.animation.*;
 import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.*;
 import com.protech.ascension.*;
+import com.protech.ascension.Util.AsyncDrawable;
+import com.protech.ascension.Util.BitmapWorkerTask;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,12 +25,19 @@ public class Chapter1FragmentActivity extends FragmentActivity {
 
 //    private ViewPager mViewPager;
     private TouchViewPager mViewPager;
-
-    private String[] mToggleText = {"Show Text", "Hide Text"};
-    private boolean mTextAreaHidden = false;
+    private TouchImageView2 mImageView;
     private CaptionTextFragment captionTextFragment;
 
-    private int[] list = new int[] {
+    private String[] mToggleText = {"Show Text", "Hide Text"};
+
+    private boolean mTextAreaHidden = false;
+
+    public final static Integer[] PAGE_LIST = new Integer[] {
+            R.drawable.image8,
+            R.drawable.image5,
+            R.drawable.image1
+    };
+    private final static Integer[] CAPTION_LIST = new Integer[] {
             R.array.ch1_pg1_caption_list,
             R.array.ch1_pg2_caption_list
     };
@@ -49,7 +59,7 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // ViewPager and its adapters use support library fragments, so we must use
         // getSupportFragmentManager.
         String[] pageList = getResources().getStringArray(R.array.ch1_page_list);
-        myPageStateAdapter = new MyPageStateAdapter(getSupportFragmentManager(), 1,  pageList.length);
+        myPageStateAdapter = new MyPageStateAdapter(getSupportFragmentManager(), 1,  PAGE_LIST.length);
 
         // Set up action bar.
 //        final ActionBar actionBar = getActionBar();
@@ -164,4 +174,45 @@ public class Chapter1FragmentActivity extends FragmentActivity {
         // Manually trigger onNewIntent to check for ACTION_DIALOG.
         onNewIntent(getIntent());
     }
+
+    public void loadBitmap(int resId, TouchImageView2 imageView) {
+        if (BitmapWorkerTask.cancelPotentialWork(resId, imageView)) {
+            final BitmapWorkerTask task = new BitmapWorkerTask(getResources(), imageView);
+            final AsyncDrawable asyncDrawable = new AsyncDrawable(getResources(), mPlaceHolderBitmap, task);
+            imageView.setImageDrawable(asyncDrawable);
+            task.execute(resId);
+        }
+//        mImageView.setImageResource(R.drawable.image_placeholder);
+//        mImageView.setImageBitmap();
+        BitmapWorkerTask task = new BitmapWorkerTask(getResources(), mImageView);
+        task.execute(resId);
+    }
+
+//    public static boolean cancelPotentialWork(int data, TouchImageView2 imageView) {
+//        final BitmapWorkerTask bitmapWorkerTask = getBitmapWorkerTask(imageView);
+//
+//        if (bitmapWorkerTask != null) {
+//            final int bitmapData = bitmapWorkerTask.data;
+//            if (bitmapData != data) {
+//                // Cancel previous task
+//                bitmapWorkerTask.cancel(true);
+//            } else {
+//                // The same work is already in progress
+//                return false;
+//            }
+//        }
+//        // No task associated with the ImageView, or an existing task was cancelled
+//        return true;
+//    }
+//
+//    private static BitmapWorkerTask getBitmapWorkerTask(TouchImageView2 imageView) {
+//       if (imageView != null) {
+//           final Drawable drawable = imageView.getDrawable();
+//           if (drawable instanceof AsyncDrawable) {
+//               final AsyncDrawable asyncDrawable = (AsyncDrawable) drawable;
+//               return asyncDrawable.getBitmapWorkerTask();
+//           }
+//        }
+//        return null;
+//    }
 }
