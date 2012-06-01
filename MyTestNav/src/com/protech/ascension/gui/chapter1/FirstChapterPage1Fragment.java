@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import com.protech.ascension.PageFragment;
 import com.protech.ascension.R;
 import com.protech.ascension.TouchImageView2;
-import com.protech.ascension.Util.BitmapWorkerTask;
+import com.protech.ascension.util.BitmapWorkerTask;
 
 /**
  * Created with IntelliJ IDEA.

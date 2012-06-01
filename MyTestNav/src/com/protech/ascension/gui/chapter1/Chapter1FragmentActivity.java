@@ -2,15 +2,13 @@ package com.protech.ascension.chapter1;
 
 import android.animation.*;
 import android.content.res.Configuration;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.ViewPager;
 import android.view.*;
 import com.protech.ascension.*;
-import com.protech.ascension.Util.AsyncDrawable;
-import com.protech.ascension.Util.BitmapWorkerTask;
+import com.protech.ascension.util.AsyncDrawable;
+import com.protech.ascension.util.BitmapWorkerTask;
 
 /**
  * Created with IntelliJ IDEA.
